@@ -26,6 +26,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     // 打印一千次
     [self printLongLogsWithTimes:1000];
+    //ly_close_detect_main_thread();
 }
 
 - (void)printLongLogsWithTimes:(NSInteger)times {
